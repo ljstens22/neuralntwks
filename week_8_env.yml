@@ -1,0 +1,19 @@
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - graphviz
+  - pip
+  - pip:
+    - numpy
+    - scipy
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - jupyter
+    - openpyxl
+    - ucimlrepo
+    - pydotplus
+    - tensorflow==2.13.1
+    - scikeras==0.12.0
+    - mlxtend
